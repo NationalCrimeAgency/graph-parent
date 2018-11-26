@@ -6,7 +6,7 @@
 
   <groupId>uk.gov.nca.graph</groupId>
   <artifactId>parent</artifactId>
-  <version>1.1</version>
+  <version>1.2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Graph Parent</name>
@@ -71,7 +71,7 @@
       <dependency>
         <groupId>org.elasticsearch.client</groupId>
         <artifactId>elasticsearch-rest-high-level-client</artifactId>
-        <version>6.4.2</version>
+        <version>6.5.1</version>
       </dependency>
       <dependency>
         <groupId>com.h2database</groupId>
@@ -96,17 +96,17 @@
       <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
-        <version>2.23.0</version>
+        <version>2.23.4</version>
       </dependency>
       <dependency>
         <groupId>net.andreinc.mockneat</groupId>
         <artifactId>mockneat</artifactId>
-        <version>0.2.4</version>
+        <version>0.2.6</version>
       </dependency>
       <dependency>
         <groupId>com.opencsv</groupId>
         <artifactId>opencsv</artifactId>
-        <version>4.3.2</version>
+        <version>4.4</version>
       </dependency>
       <dependency>
         <groupId>com.google.re2j</groupId>
